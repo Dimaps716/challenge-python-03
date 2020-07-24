@@ -12,6 +12,5 @@ def run():
         print(''.join(mensaje))
   
 
-
 if __name__ == '__main__':
     run()
