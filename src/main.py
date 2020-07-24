@@ -9,7 +9,7 @@ def run():
     with open ("C:\\Users\\MARIA ANGELICA\\Cursos_DIMA\\git_clone\\challenge-python-03\\src\\encoded.txt", 'r', encoding='utf-8') as file:
         regex = re.compile('[a-z]')
         mensaje = re.findall(regex, file.read())
-        print(''.join(mensaje)) 
+        print(''.join(mensaje))
   
 
 
